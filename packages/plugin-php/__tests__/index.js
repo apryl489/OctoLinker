@@ -25,6 +25,7 @@ describe('php', () => {
       ]),
     ).toEqual({
       registry: 'ping',
+      type: 'trusted-url',
       target:
         'https://laravel.com/api/8.x/Illuminate/Contracts/Container/BindingResolutionException.html',
     });
